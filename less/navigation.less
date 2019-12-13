@@ -1,1 +1,36 @@
 // Navigation code here
+
+.heading{
+    .flex(flex; center);
+    margin-top:1%;
+
+    h1{
+        font-size: 3.2rem;
+    }
+}
+
+.div-nav{
+    .flex(flex; center);
+    margin:4% auto;
+
+    @media @phone{
+
+    }
+
+    
+
+    nav{
+        .flex(flex; space-between);
+        width:18%;
+        position:fixed;
+        background:rgba(255, 255, 255, 0.8);
+        
+        @media @phone{
+            width:80%;
+        }
+    }
+
+    nav a{
+        .nav-font
+    }
+}
